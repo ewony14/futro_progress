@@ -1,6 +1,6 @@
 # futro_progress
 Futro Progress Bar
-
+```lua
 TriggerEvent("futro_progress:client:progress", {
         name = "akcija",
         duration = 10000,
@@ -25,3 +25,4 @@ TriggerEvent("futro_progress:client:progress", {
             -- Do Something If Event Not Cancelled
         end
     end)
+```
